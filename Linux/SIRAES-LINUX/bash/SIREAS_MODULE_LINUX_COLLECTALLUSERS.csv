@@ -1,0 +1,5 @@
+Username,UserID,GroupID,HomeDirectory,Shell,LastLogin,PasswordStatus,Groups,SSHAuthorizedKeys,LastPasswordChange,PasswordExpiration
+root,0,0,/root,/bin/bash,"Never logged in",L,"root","None"," Sep 16, 2018"," never"
+nobody,65534,65534,/nonexistent,/usr/sbin/nologin,"Never logged in",L,"nogroup","None"," Jul 25, 2018"," never"
+cynet,1000,1000,/home/cynet,/bin/bash,"Tue Aug 1 17:35 still",P,"cynet adm cdrom sudo dip plugdev lpadmin sambashare","None"," Sep 16, 2018"," never"
+cuckoo,1001,1001,/home/cuckoo,/bin/bash,"Tue Aug 1 15:52 still",P,"cuckoo pcap vboxusers","None"," Jan 20, 2022"," never"

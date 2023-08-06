@@ -1,6 +1,11 @@
 #!/bin/bash
 
-OUTPUT_FILE="process_info.csv"
+# SIREAS - SHOVAL INCIDENT RESPONSE ENPOINT ARTIFACTS SCANNER
+# Developed by Sean Shohat (Github: @seanshx) 2023
+# PLATFORM: Linux | VERSION: alpha 1.0
+# SIREAS MODULE: SIREAS_MODULE_LINUX_GETRUNNINGPROCESSES
+
+OUTPUT_FILE="SIREAS_MODULE_LINUX_GETRUNNINGPROCESSES.csv"
 
 # CSV headers
 echo "SHA256,RunningTime,RunningUser,PID,PPID,CreationTime,ProcessPath,CommandLine,Status,VirtualMemorySize,ResidentSetSize,MemoryPercentage,OpenFiles,ListeningPorts,CurrentWorkingDir,EnvironmentVars" > $OUTPUT_FILE

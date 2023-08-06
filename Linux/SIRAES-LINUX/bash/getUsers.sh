@@ -1,12 +1,23 @@
 #!/bin/bash
 
-OUTPUT_FILE="user_info.csv"
+# SIREAS - SHOVAL INCIDENT RESPONSE ENPOINT ARTIFACTS SCANNER
+# Developed by Sean Shohat (Github: @seanshx) 2023
+# PLATFORM: Linux | VERSION: alpha 1.0
+# SIREAS MODULE: SIREAS_MODULE_LINUX_COLLECTALLUSERS
+
+OUTPUT_FILE="SIREAS_MODULE_LINUX_COLLECTALLUSERS.csv"
 
 # CSV headers
 echo "Username,UserID,GroupID,HomeDirectory,Shell,LastLogin,PasswordStatus,Groups,SSHAuthorizedKeys,LastPasswordChange,PasswordExpiration" > $OUTPUT_FILE
 
 # Loop through each user in /etc/passwd
-while IFS: read -r user pass uid gid comment home shell; do
+while read line; do
+    user=$(echo "$line" | cut -d: -f1)
+    uid=$(echo "$line" | cut -d: -f3)
+    gid=$(echo "$line" | cut -d: -f4)
+    home=$(echo "$line" | cut -d: -f6)
+    shell=$(echo "$line" | cut -d: -f7)
+
     # Ignore system users (optional)
     if [[ $uid -lt 1000 && "$user" != "root" ]]; then
         continue
