@@ -1,0 +1,445 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 225884  9664 ?        Ss   Aug01   0:21 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    Aug01   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        I<   Aug01   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    Aug01   0:00 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    Aug01   0:43 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    Aug01   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    Aug01   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    Aug01   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    Aug01   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    Aug01   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    Aug01   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    Aug01   0:03 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    Aug01   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S    Aug01   0:00 [cpuhp/2]
+root        20  0.0  0.0      0     0 ?        S    Aug01   0:00 [watchdog/2]
+root        21  0.0  0.0      0     0 ?        S    Aug01   0:03 [migration/2]
+root        22  0.0  0.0      0     0 ?        S    Aug01   0:00 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kworker/2:0H]
+root        25  0.0  0.0      0     0 ?        S    Aug01   0:00 [cpuhp/3]
+root        26  0.0  0.0      0     0 ?        S    Aug01   0:00 [watchdog/3]
+root        27  0.0  0.0      0     0 ?        S    Aug01   0:03 [migration/3]
+root        28  0.0  0.0      0     0 ?        S    Aug01   0:00 [ksoftirqd/3]
+root        30  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kworker/3:0H]
+root        31  0.0  0.0      0     0 ?        S    Aug01   0:00 [kdevtmpfs]
+root        32  0.0  0.0      0     0 ?        I<   Aug01   0:00 [netns]
+root        33  0.0  0.0      0     0 ?        S    Aug01   0:00 [rcu_tasks_kthre]
+root        34  0.0  0.0      0     0 ?        S    Aug01   0:00 [kauditd]
+root        36  0.0  0.0      0     0 ?        S    Aug01   0:01 [khungtaskd]
+root        37  0.0  0.0      0     0 ?        S    Aug01   0:00 [oom_reaper]
+root        38  0.0  0.0      0     0 ?        I<   Aug01   0:00 [writeback]
+root        39  0.0  0.0      0     0 ?        S    Aug01   0:00 [kcompactd0]
+root        40  0.0  0.0      0     0 ?        SN   Aug01   0:00 [ksmd]
+root        41  0.0  0.0      0     0 ?        SN   Aug01   0:01 [khugepaged]
+root        42  0.0  0.0      0     0 ?        I<   Aug01   0:00 [crypto]
+root        43  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kintegrityd]
+root        44  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kblockd]
+root        45  0.0  0.0      0     0 ?        I<   Aug01   0:00 [ata_sff]
+root        46  0.0  0.0      0     0 ?        I<   Aug01   0:00 [md]
+root        47  0.0  0.0      0     0 ?        I<   Aug01   0:00 [edac-poller]
+root        48  0.0  0.0      0     0 ?        I<   Aug01   0:00 [devfreq_wq]
+root        49  0.0  0.0      0     0 ?        I<   Aug01   0:00 [watchdogd]
+root        55  0.0  0.0      0     0 ?        S    Aug01   0:00 [kswapd0]
+root        56  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kworker/u9:0]
+root        57  0.0  0.0      0     0 ?        S    Aug01   0:00 [ecryptfs-kthrea]
+root        99  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kthrotld]
+root       100  0.0  0.0      0     0 ?        I<   Aug01   0:00 [acpi_thermal_pm]
+root       101  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_0]
+root       102  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_0]
+root       103  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_1]
+root       104  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_1]
+root       110  0.0  0.0      0     0 ?        I<   Aug01   0:00 [ipv6_addrconf]
+root       119  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kstrp]
+root       136  0.0  0.0      0     0 ?        I<   Aug01   0:00 [charger_manager]
+root       192  0.0  0.0      0     0 ?        I<   Aug01   0:00 [mpt_poll_0]
+root       193  0.0  0.0      0     0 ?        I<   Aug01   0:00 [mpt/0]
+root       194  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_2]
+root       195  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_2]
+root       196  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_3]
+root       197  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_3]
+root       198  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_4]
+root       199  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_4]
+root       200  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_5]
+root       201  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_5]
+root       202  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_6]
+root       203  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_6]
+root       204  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_7]
+root       205  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_7]
+root       206  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_8]
+root       207  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_8]
+root       208  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_9]
+root       209  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_9]
+root       210  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_10]
+root       211  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_10]
+root       212  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_11]
+root       213  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_11]
+root       214  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_12]
+root       215  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_12]
+root       216  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_13]
+root       217  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_13]
+root       218  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_14]
+root       219  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_14]
+root       220  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_15]
+root       221  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_15]
+root       222  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_16]
+root       223  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_16]
+root       224  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_17]
+root       225  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_17]
+root       226  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_18]
+root       227  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_18]
+root       228  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_19]
+root       229  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_19]
+root       230  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_20]
+root       231  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_20]
+root       232  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_21]
+root       233  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_21]
+root       234  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_22]
+root       235  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_22]
+root       236  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_23]
+root       237  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_23]
+root       238  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_24]
+root       239  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_24]
+root       240  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_25]
+root       241  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_25]
+root       242  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_26]
+root       243  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_26]
+root       244  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_27]
+root       245  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_27]
+root       246  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_28]
+root       247  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_28]
+root       248  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_29]
+root       249  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_29]
+root       250  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_30]
+root       251  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_30]
+root       252  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_31]
+root       253  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_31]
+root       281  0.0  0.0      0     0 ?        S    Aug01   0:00 [scsi_eh_32]
+root       282  0.0  0.0      0     0 ?        I<   Aug01   0:00 [scsi_tmf_32]
+root       283  0.0  0.0      0     0 ?        I<   Aug01   0:00 [ttm_swap]
+root       284  0.0  0.0      0     0 ?        S    Aug01   0:00 [irq/16-vmwgfx]
+root       298  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kworker/1:1H]
+root       368  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kworker/0:1H]
+root       372  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kworker/2:1H]
+root       380  0.0  0.0      0     0 ?        I<   Aug01   0:00 [kworker/3:1H]
+root       381  0.0  0.0      0     0 ?        S    Aug01   0:10 [jbd2/sda1-8]
+root       382  0.0  0.0      0     0 ?        I<   Aug01   0:00 [ext4-rsv-conver]
+root       412  0.0  0.2 136528 46340 ?        S<s  Aug01   0:04 /lib/systemd/systemd-journald
+root       433  0.0  0.0  47448  5712 ?        Ss   Aug01   0:09 /lib/systemd/systemd-udevd
+root       441  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop0]
+root       471  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop2]
+root       482  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop3]
+root       489  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop4]
+root       490  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop5]
+root       493  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop6]
+root       494  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop7]
+root       495  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop8]
+root       496  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop9]
+root       497  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop10]
+root       498  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop11]
+root       499  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop12]
+root       501  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop13]
+root       502  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop14]
+root       503  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop15]
+root       504  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop16]
+root       505  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop17]
+root       506  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop18]
+root       507  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop19]
+root       508  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop20]
+root       509  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop21]
+root       510  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop22]
+root       511  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop23]
+root       512  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop24]
+root       513  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop25]
+root       514  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop26]
+root       515  0.0  0.0      0     0 ?        S<   Aug01   0:00 [loop27]
+systemd+   548  0.0  0.0 145964  3304 ?        Ssl  Aug01   0:00 /lib/systemd/systemd-timesyncd
+systemd+   549  0.0  0.0  70944  6452 ?        Ss   Aug01   0:09 /lib/systemd/systemd-resolved
+root       722  0.0  0.0  91196 10316 ?        Ss   Aug01   0:00 /usr/bin/VGAuthService
+root       723  0.0  0.0 228492  7908 ?        S<sl Aug01   6:14 /usr/bin/vmtoolsd
+message+   860  0.0  0.0  52840  6868 ?        Ss   Aug01   0:12 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       866  0.0  0.0 427268  9108 ?        Ssl  Aug01   0:00 /usr/sbin/ModemManager
+root       871  0.0  0.1 170828 17500 ?        Ssl  Aug01   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root       876  0.0  0.0  45240  5452 ?        Ss   Aug01   0:01 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       886  0.0  0.0  31324  3272 ?        Ss   Aug01   0:00 /usr/sbin/cron -f
+root       887  0.0  0.0   4560   852 ?        Ss   Aug01   0:00 /usr/sbin/acpid
+root       888  0.0  0.3 1189832 53344 ?       Ssl  Aug01   0:51 /usr/lib/snapd/snapd
+root       890  0.0  0.0 287636  7132 ?        Ssl  Aug01   0:06 /usr/lib/accountsservice/accounts-daemon
+root       892  0.0  0.1 558876 17176 ?        Ssl  Aug01   0:36 /usr/sbin/NetworkManager --no-daemon
+root       894  0.0  0.0 503744 11396 ?        Ssl  Aug01   0:00 /usr/lib/udisks2/udisksd
+avahi      895  0.0  0.0  47272  3304 ?        Ss   Aug01   0:36 avahi-daemon: running [ubuntu174-ad2-vm-5.local]
+root       897  0.0  0.0  70572  6120 ?        Ss   Aug01   0:01 /lib/systemd/systemd-logind
+syslog     900  0.0  0.0 269340  5192 ?        Ssl  Aug01   0:00 /usr/sbin/rsyslogd -n
+root       901  0.0  0.0 110552  2120 ?        Ssl  Aug01   0:30 /usr/sbin/irqbalance --foreground
+root       916  0.0  0.0 296380 10404 ?        Ssl  Aug01   0:05 /usr/lib/policykit-1/polkitd --no-debug
+avahi      927  0.0  0.0  47084   344 ?        S    Aug01   0:00 avahi-daemon: chroot helper
+mongodb   1001  0.2  0.4 1025296 78768 ?       Ssl  Aug01  18:24 /usr/bin/mongod --unixSocketPrefix=/run/mongodb --config /etc/mongodb.conf
+guacd     1007  0.0  0.0  78272  9912 ?        S    Aug01   0:00 /usr/sbin/guacd -b 127.0.0.1 -l 4822 -p /var/run/guacd/guacd.pid
+root      1011  0.0  0.0  72304  5748 ?        Ss   Aug01   0:00 /usr/sbin/sshd -D
+root      1018  0.0  0.0 301080  7984 ?        Ssl  Aug01   0:00 /usr/sbin/gdm3
+root      1021  0.0  0.0  25996  6240 ?        S    Aug01   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-ens160.pid -lf /var/lib/NetworkManager/dhclient-6c8fad43-a2cb-30c5-97c4-d93d82baaa86-ens160.lease -cf /var/lib/NetworkManager/dhclient-ens160.conf ens160
+root      1036  0.0  0.0 254448  8392 ?        Sl   Aug01   0:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm       1089  0.0  0.0  76908  8024 ?        Ss   Aug01   0:00 /lib/systemd/systemd --user
+gdm       1092  0.0  0.0 114080  2688 ?        S    Aug01   0:00 (sd-pam)
+gdm       1122  0.0  0.0 190692  5568 tty1     Ssl+ Aug01   0:00 /usr/lib/gdm3/gdm-wayland-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm       1126  0.0  0.0  50264  4768 ?        Ss   Aug01   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gdm       1137  0.0  0.0 625416 13572 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm       1161  0.0  1.2 3829464 204360 tty1   Sl+  Aug01   2:02 /usr/bin/gnome-shell
+root      1188  0.0  0.0 306880  8356 ?        Ssl  Aug01   0:00 /usr/lib/upower/upowerd
+gdm       1254  0.0  0.2 514492 39260 tty1     Sl+  Aug01   0:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       1282  0.0  0.0 349404  6404 ?        Ssl  Aug01   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+gdm       1287  0.0  0.0  49932  3884 ?        S    Aug01   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm       1307  0.0  0.0 220768  5656 ?        Sl   Aug01   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+gdm       1315  0.0  0.0 1236692 12932 ?       Ssl  Aug01   0:00 /usr/bin/pulseaudio --daemonize=no
+rtkit     1330  0.0  0.0 183516  3068 ?        SNsl Aug01   0:03 /usr/lib/rtkit/rtkit-daemon
+whoopsie  1545  0.0  0.0 462216 12724 ?        Ssl  Aug01   0:00 /usr/bin/whoopsie -f
+kernoops  1567  0.0  0.0  56944   424 ?        Ss   Aug01   0:16 /usr/sbin/kerneloops --test
+kernoops  1573  0.0  0.0  56944   416 ?        Ss   Aug01   0:16 /usr/sbin/kerneloops
+root      1678  0.0  0.0  25996  6220 ?        S    Aug01   0:00 /sbin/dhclient -d -q -6 -N -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient6-ens160.pid -lf /var/lib/NetworkManager/dhclient6-6c8fad43-a2cb-30c5-97c4-d93d82baaa86-ens160.lease -cf /var/lib/NetworkManager/dhclient6-ens160.conf ens160
+gdm       1802  0.0  0.0 354260  7780 tty1     Sl   Aug01   0:00 ibus-daemon --xim --panel disable
+gdm       1889  0.0  0.0 273504  5864 tty1     Sl   Aug01   0:00 /usr/lib/ibus/ibus-dconf
+gdm       1894  0.0  0.3 776312 50000 tty1     Sl   Aug01   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       1898  0.0  0.0 271452  5888 ?        Sl   Aug01   0:00 /usr/lib/ibus/ibus-portal
+root      1992  0.0  0.0 289676  7200 ?        Ssl  Aug01   0:01 /usr/lib/x86_64-linux-gnu/boltd
+root      2003  0.0  0.6 515368 99684 ?        Ssl  Aug01   2:28 /usr/lib/packagekit/packagekitd
+gdm       2004  0.0  0.1 487464 22048 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       2007  0.0  0.0 271044  5856 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       2014  0.0  0.1 336572 20388 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       2016  0.0  0.1 651572 22204 tty1     Sl+  Aug01   2:05 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       2018  0.0  0.0 386608 13748 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       2021  0.0  0.0 276632  5992 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       2022  0.0  0.1 490940 20704 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       2024  0.0  0.1 1074712 23532 tty1    Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       2028  0.0  0.0 194892  4516 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       2030  0.0  0.1 510084 22360 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       2034  0.0  0.0 259916  8616 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       2041  0.0  0.0 194912  4672 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       2047  0.0  0.0 268628  4828 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       2052  0.0  0.0 298004  8296 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       2054  0.0  0.0 370956  7832 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       2057  0.0  0.0 327864  7976 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       2063  0.0  0.1 421352 21528 tty1     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+colord    2087  0.0  0.0 317864 13920 ?        Ssl  Aug01   0:00 /usr/lib/colord/colord
+gdm       2137  0.0  0.0 197784  6588 tty1     Sl   Aug01   0:00 /usr/lib/ibus/ibus-engine-simple
+root      3298  0.0  0.0 100604  8060 ?        Ss   00:09   0:00 /usr/sbin/cupsd -l
+root      3299  0.0  0.0 303544 10936 ?        Ssl  00:09   0:00 /usr/sbin/cups-browsed
+cynet     5640  0.0  0.0 437016  7552 ?        Sl   10:56   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.13 /org/gtk/gvfs/exec_spaw/1
+cynet     5679  0.0  0.0 374188  7368 ?        Sl   10:56   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.13 /org/gtk/gvfs/exec_spaw/5
+cynet     6054  3.3  2.6 3787600 435300 tty3   Sl+  10:57   2:59 /usr/lib/firefox/firefox -new-window
+cynet     6109  0.0  0.2 377048 44748 tty3     Sl+  10:57   0:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20230522134052 -prefsLen 27888 -prefMapSize 234365 -appDir /usr/lib/firefox/browser {72761e55-c4ae-4482-a5e4-25ece25e5980} 6054 true socket
+cynet     6126  0.0  0.8 2629524 134408 tty3   Sl+  10:57   0:02 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 28029 -prefMapSize 234365 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {d6ae606b-db54-4b11-9f9a-54a19bc406d0} 6054 true tab
+cynet     6173  0.0  0.6 2596916 101816 tty3   Sl+  10:57   0:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 33521 -prefMapSize 234365 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {c1f02a14-6e33-4102-a969-e3e0e9344131} 6054 true tab
+cynet     6227  0.7  1.3 2811292 217864 tty3   Sl+  10:57   0:39 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 29157 -prefMapSize 234365 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {c21b30d7-3817-45c2-ada2-d609e1144752} 6054 true tab
+cynet     6237  0.4  1.1 2721572 186484 tty3   Sl+  10:57   0:26 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29157 -prefMapSize 234365 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {ed0f4c41-f643-401b-9dc0-f03f45c45cd3} 6054 true tab
+cynet     6313  0.0  0.2 378480 41848 tty3     Sl+  10:58   0:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20230522134052 -prefsLen 33036 -prefMapSize 234365 -appDir /usr/lib/firefox/browser {f00c51d9-563d-491a-9228-12ce1e5faeeb} 6054 true rdd
+cynet     6314  0.0  0.2 379504 40084 tty3     Sl+  10:58   0:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20230522134052 -sandboxingKind 0 -prefsLen 33036 -prefMapSize 234365 -appDir /usr/lib/firefox/browser {3f29ec4d-f3d0-412d-8691-4f4fe6b384a7} 6054 true utility
+root      6824  0.0  0.1 567156 24348 ?        Ssl  11:03   0:00 /usr/lib/fwupd/fwupd
+root      6931  0.0  0.0  11316   320 ?        Ss   11:05   0:00 ssh-agent -s
+root      7803  0.0  0.0      0     0 ?        I    11:40   0:00 [kworker/u8:3]
+root      8083  0.0  0.0      0     0 ?        I<   Aug01   0:00 [iprt-VBoxWQueue]
+root      8086  0.0  0.0      0     0 ?        S    Aug01   0:00 [iprt-VBoxTscThr]
+root      8122  0.0  0.0 408232  9048 ?        Sl   Aug01   0:00 gdm-session-worker [pam/gdm-password]
+cuckoo    8126  0.0  0.0  77020  8200 ?        Ss   Aug01   0:00 /lib/systemd/systemd --user
+cuckoo    8127  0.0  0.0 261544  2732 ?        S    Aug01   0:00 (sd-pam)
+cynet     8128  0.0  0.0  18968  3940 tty3     S+   11:42   0:00 git push -u origin dev-linux-cr
+cynet     8129  0.0  0.0  52272  5852 tty3     S+   11:42   0:00 /usr/bin/ssh git@github.com git-receive-pack 'seanshx/DFIR.git'
+cuckoo    8140  0.0  0.0 281260  7660 ?        Sl   Aug01   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+cuckoo    8144  0.0  0.0 205028  5956 tty2     Ssl+ Aug01   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+cuckoo    8146  0.0  1.4 1011228 239524 tty2   Sl+  Aug01   1:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1001/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+cuckoo    8154  0.0  0.0  53940  8448 ?        Ss   Aug01   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+cuckoo    8157  0.0  0.0 560416 14496 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+cuckoo    8250  0.0  0.0  11316   320 ?        Ss   Aug01   0:01 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+cuckoo    8256  0.0  0.0 349292  5956 ?        Ssl  Aug01   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+cuckoo    8261  0.0  0.0  50056  4432 ?        S    Aug01   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+cuckoo    8264  0.0  0.0 220784  6912 ?        Sl   Aug01   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+cuckoo    8289  0.1  2.7 4192292 452880 tty2   Sl+  Aug01  10:23 /usr/bin/gnome-shell
+cuckoo    8299  0.0  0.0 358592  7088 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfsd
+cuckoo    8304  0.0  0.0 416116  5380 ?        Sl   Aug01   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1001/gvfs -f -o big_writes
+cuckoo    8315  0.0  0.0 1253912 13940 ?       S<l  Aug01   0:19 /usr/bin/pulseaudio --start --log-target=syslog
+cuckoo    8327  0.0  0.0 428508  8332 tty2     Sl   Aug01   0:02 ibus-daemon --xim --panel disable
+cuckoo    8331  0.0  0.1 690968 22600 ?        Sl   Aug01   0:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+cuckoo    8335  0.0  0.0 273640  6648 tty2     Sl   Aug01   0:00 /usr/lib/ibus/ibus-dconf
+cuckoo    8337  0.0  0.1 336780 20548 tty2     Sl   Aug01   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+cuckoo    8341  0.0  0.0 271452  5780 ?        Sl   Aug01   0:00 /usr/lib/ibus/ibus-portal
+cuckoo    8353  0.0  0.1 1365048 25892 ?       Ssl  Aug01   0:00 /usr/lib/evolution/evolution-source-registry
+cuckoo    8365  0.0  0.2 783844 33480 ?        Sl   Aug01   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+cuckoo    8366  0.0  0.0 299460  8864 ?        Ssl  Aug01   0:01 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+cuckoo    8372  0.0  0.0 281524  5980 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+cuckoo    8379  0.0  0.0 296256  7588 ?        Sl   Aug01   0:00 /usr/lib/gnome-online-accounts/goa-identity-service
+cuckoo    8384  0.0  0.0 266940  5792 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+cuckoo    8390  0.0  0.0 268732  5288 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+cuckoo    8394  0.0  0.0 371724  7752 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+cuckoo    8399  0.0  0.1 509852 22028 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-power
+cuckoo    8400  0.0  0.0 342232 10224 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+cuckoo    8402  0.0  0.0 416240  5984 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+cuckoo    8403  0.0  0.0 268628  4792 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+cuckoo    8405  0.0  0.0 445732  9380 tty2     Sl+  Aug01   0:04 /usr/lib/gnome-settings-daemon/gsd-sharing
+cuckoo    8409  0.0  0.0 370956  7872 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+cuckoo    8415  0.0  0.0 327868  7856 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+cuckoo    8418  0.0  0.1 487308 21768 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+cuckoo    8426  0.0  0.1 421216 20844 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+cuckoo    8434  0.0  0.0 271044  5844 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+cuckoo    8435  0.0  0.1 336384 20024 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+cuckoo    8437  0.0  0.1 651400 21568 tty2     Sl+  Aug01   1:52 /usr/lib/gnome-settings-daemon/gsd-color
+cuckoo    8439  0.0  0.0 462632 13956 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+cuckoo    8441  0.0  0.0 357420  7020 tty2     Sl+  Aug01   0:15 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+cuckoo    8442  0.0  0.1 490760 20440 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+cuckoo    8448  0.0  0.1 1074528 22820 tty2    Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+cuckoo    8450  0.0  0.0 271048  5944 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+cuckoo    8484  0.0  0.0 501664 12672 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+cuckoo    8493  0.0  0.6 1026044 111496 tty2   Sl+  Aug01   0:05 nautilus-desktop
+cuckoo    8498  0.0  0.0 271936  6484 tty2     Sl+  Aug01   0:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+cuckoo    8505  0.0  1.2 1471756 205852 tty2   SLl+ Aug01   0:55 /usr/bin/gnome-software --gapplication-service
+cuckoo    8520  0.0  0.0 361136  7260 ?        Sl   Aug01   0:06 /usr/lib/gvfs/gvfsd-trash --spawner :1.22 /org/gtk/gvfs/exec_spaw/0
+cuckoo    8526  0.0  0.4 885336 67660 ?        Ssl  Aug01   0:00 /usr/lib/evolution/evolution-calendar-factory
+cuckoo    8544  0.0  0.0 197784  6504 tty2     Sl   Aug01   0:00 /usr/lib/ibus/ibus-engine-simple
+cuckoo    8561  0.0  0.3 1129172 62556 ?       Sl   Aug01   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx8526x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/8526/2
+cuckoo    8563  0.0  0.0 188032  5308 ?        Sl   Aug01   0:00 /usr/lib/dconf/dconf-service
+cuckoo    8581  0.0  0.1 725620 24000 ?        Ssl  Aug01   0:00 /usr/lib/evolution/evolution-addressbook-factory
+cuckoo    8591  0.0  0.1 1010120 26592 ?       Sl   Aug01   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx8581x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/8581/2
+cuckoo    8663  0.0  0.1 435848 20924 tty2     Sl+  Aug01   0:06 update-notifier
+cuckoo    8675  0.0  0.3 1405604 65048 ?       Sl   Aug01   0:09 /usr/bin/nautilus --gapplication-service
+cuckoo    9006  0.0  0.2 870936 34500 tty2     Sl+  Aug01   0:00 /usr/lib/deja-dup/deja-dup-monitor
+root      9119  0.0  0.0      0     0 ?        I    11:45   0:00 [kworker/2:2]
+cynet     9384  0.0  0.5 2573188 93024 tty3    Sl+  11:48   0:00 /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 30328 -prefMapSize 234365 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {c27ec142-69f8-4b96-8c9f-a6472aaf08a6} 6054 true tab
+cynet     9417  0.0  0.6 2621408 111504 tty3   Sl+  11:48   0:00 /usr/lib/firefox/firefox -contentproc -childID 9 -isForBrowser -prefsLen 30328 -prefMapSize 234365 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {c20924ef-69a5-4435-ab38-719505f74194} 6054 true tab
+cynet     9421  0.2  0.9 2660116 156716 tty3   Sl+  11:48   0:06 /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30328 -prefMapSize 234365 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {3f12e74a-1483-4c13-9860-a3101f6f506f} 6054 true tab
+cynet     9464  0.0  0.4 2555268 76020 tty3    Sl+  11:48   0:00 /usr/lib/firefox/firefox -contentproc -childID 11 -isForBrowser -prefsLen 30328 -prefMapSize 234365 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {93f07a5f-ad2b-4bc8-b1bb-31bd65ce15e0} 6054 true tab
+cynet     9468  0.0  0.4 2555268 76292 tty3    Sl+  11:48   0:00 /usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 30328 -prefMapSize 234365 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {998cdf63-077c-4de1-8a26-e26b006c58d5} 6054 true tab
+cuckoo    9499  0.0  0.0 197400  5976 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfsd-metadata
+cuckoo    9515  0.0  0.2 796560 38728 ?        Ssl  Aug01   0:05 /usr/lib/gnome-terminal/gnome-terminal-server
+cuckoo    9525  0.0  0.0  22848  5400 pts/0    Ss   Aug01   0:00 bash
+cuckoo    9676  0.0  0.0  22848  3716 pts/0    S+   Aug01   0:00 bash
+cuckoo    9679  0.0  0.4 202028 73060 pts/0    S+   Aug01   1:05 /home/cuckoo/cuckoo/bin/python2 /home/cuckoo/cuckoo/bin/cuckoo api
+cuckoo    9684  0.0  0.0  22716  5372 pts/1    Ss   Aug01   0:00 bash
+cuckoo   10103  0.0  0.9 1176648556 150240 ?   SLl  Aug01   3:02 /usr/share/code/code --unity-launch /home/cuckoo/CUCKOO-BLACKIT-API.sh
+cuckoo   10106  0.0  0.2 33914032 44796 ?      S    Aug01   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+cuckoo   10107  0.0  0.2 33914024 45044 ?      S    Aug01   0:00 /usr/share/code/code --type=zygote
+cuckoo   10109  0.0  0.0 33914048 11880 ?      S    Aug01   0:00 /usr/share/code/code --type=zygote
+cuckoo   10134  0.0  0.4 34054960 77788 ?      Sl   Aug01   0:22 /usr/share/code/code --type=gpu-process --enable-crash-reporter=a80a7867-556b-41ac-bb2a-8f9e41b6783e,no_channel --user-data-dir=/home/cuckoo/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,751801553777905424,15839163427615546294,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+cuckoo   10151  0.0  0.4 33969604 66652 ?      Sl   Aug01   0:30 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --enable-crash-reporter=a80a7867-556b-41ac-bb2a-8f9e41b6783e,no_channel --user-data-dir=/home/cuckoo/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,751801553777905424,15839163427615546294,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+cuckoo   10160  0.0  1.0 1184886756 171768 ?   Sl   Aug01   0:26 /usr/share/code/code --type=renderer --enable-crash-reporter=a80a7867-556b-41ac-bb2a-8f9e41b6783e,no_channel --user-data-dir=/home/cuckoo/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --first-renderer-process --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1690894277104482 --launch-time-ticks=4902995105 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,751801553777905424,15839163427615546294,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:e1642868-3b12-4321-8f77-04100e1fd7b4
+cuckoo   10195  0.0  0.4 1176455112 79808 ?    Sl   Aug01   0:53 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --enable-crash-reporter=a80a7867-556b-41ac-bb2a-8f9e41b6783e,no_channel --user-data-dir=/home/cuckoo/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,751801553777905424,15839163427615546294,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+cuckoo   10196  0.0  0.5 1176458768 94124 ?    Sl   Aug01   0:59 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --enable-crash-reporter=a80a7867-556b-41ac-bb2a-8f9e41b6783e,no_channel --user-data-dir=/home/cuckoo/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,751801553777905424,15839163427615546294,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+cuckoo   10197  0.0  0.4 1176453064 77272 ?    Sl   Aug01   0:40 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --enable-crash-reporter=a80a7867-556b-41ac-bb2a-8f9e41b6783e,no_channel --user-data-dir=/home/cuckoo/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,751801553777905424,15839163427615546294,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+cuckoo   10198  0.0  0.5 1176453004 96912 ?    Sl   Aug01   0:28 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --inspect-port=0 --enable-crash-reporter=a80a7867-556b-41ac-bb2a-8f9e41b6783e,no_channel --user-data-dir=/home/cuckoo/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,751801553777905424,15839163427615546294,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+cynet    10283  0.0  0.4 2555268 76184 tty3    Sl+  11:53   0:00 /usr/lib/firefox/firefox -contentproc -childID 13 -isForBrowser -prefsLen 30328 -prefMapSize 234365 -jsInitLen 238780 -parentBuildID 20230522134052 -appDir /usr/lib/firefox/browser {cab780be-39e0-4bb8-962e-a2e4c273e7f5} 6054 true tab
+root     10914  0.0  0.0      0     0 ?        I    12:02   0:00 [kworker/1:0]
+cuckoo   10951  0.0  0.0 363280  7448 ?        Sl   Aug01   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.22 /org/gtk/gvfs/exec_spaw/1
+cuckoo   10992  0.0  0.0 447920  7760 ?        Sl   Aug01   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.22 /org/gtk/gvfs/exec_spaw/5
+root     11011  0.0  0.0      0     0 ?        I    12:02   0:00 [kworker/3:1]
+root     11155  0.0  0.0      0     0 ?        I    12:03   0:00 [kworker/0:0]
+cuckoo   11166  0.0  0.0 426428  8652 ?        Ssl  Aug01   0:00 /usr/bin/zeitgeist-daemon
+cuckoo   11172  0.0  0.0 326616 16248 ?        Ssl  Aug01   0:00 /usr/lib/zeitgeist/zeitgeist/zeitgeist-fts
+root     11254  0.0  0.0      0     0 ?        I    12:05   0:00 [kworker/3:3]
+cynet    11255  1.6  0.9 1176707368 155472 tty3 SLl+ 12:05   0:21 /usr/share/code/code --unity-launch
+cynet    11259  0.0  0.2 33914040 45400 tty3   S+   12:05   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+cynet    11260  0.0  0.2 33914024 45256 tty3   S+   12:05   0:00 /usr/share/code/code --type=zygote
+cynet    11262  0.0  0.0 33914048 11852 tty3   S+   12:05   0:00 /usr/share/code/code --type=zygote
+cynet    11276  0.0  0.0 33586640 3092 ?       Sl   12:05   0:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/cynet/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=232da4d8-2259-48d3-8fe4-34917c733ed6&iid=232da4d8-2259-48d3-8fe4-34917c733ed6&sid=232da4d8-2259-48d3-8fe4-34917c733ed6 --annotation=IsOfficialBuild=1 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.81.0 --annotation=exe=/usr/share/code/code --unity-launch --annotation=lsb-release=Ubuntu 18.04.1 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=22.3.18 --initial-client-fd=42 --shared-client-connection
+root     11290  0.0  0.0  65140  3932 pts/1    S    Aug01   0:00 su cynet
+cynet    11291  0.0  0.0  77064  8260 ?        Ss   Aug01   0:00 /lib/systemd/systemd --user
+cynet    11292  0.0  0.0 261544  2732 ?        S    Aug01   0:00 (sd-pam)
+cynet    11295 15.4  0.5 34045268 97272 tty3   Sl+  12:05   3:20 /usr/share/code/code --type=gpu-process --crashpad-handler-pid=11276 --enable-crash-reporter=af1c6948-de2c-4a66-a8fa-11c368013ec7,no_channel --user-data-dir=/home/cynet/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,14263021317052809694,10959392374682468401,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+cynet    11303  0.0  0.0  22856  5372 pts/1    S    Aug01   0:00 bash
+cynet    11312  0.0  0.3 33969684 63468 tty3   Sl+  12:05   0:00 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --crashpad-handler-pid=11276 --enable-crash-reporter=af1c6948-de2c-4a66-a8fa-11c368013ec7,no_channel --user-data-dir=/home/cynet/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,14263021317052809694,10959392374682468401,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+cynet    11321 15.3  2.7 1187006840 458804 tty3 Sl+ 12:05   3:18 /usr/share/code/code --type=renderer --crashpad-handler-pid=11276 --enable-crash-reporter=af1c6948-de2c-4a66-a8fa-11c368013ec7,no_channel --user-data-dir=/home/cynet/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --first-renderer-process --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1690894277104482 --launch-time-ticks=418430058234 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,14263021317052809694,10959392374682468401,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:7dfec11b-dbf9-4492-8682-70adf315184a
+root     11323  0.0  0.0  72144  4540 pts/1    S+   Aug01   0:00 sudo ./cuckoo/bin/cuckoo rooter
+root     11324  0.0  0.4 194432 69620 pts/1    S+   Aug01   0:00 /home/cuckoo/cuckoo/bin/python2 ./cuckoo/bin/cuckoo rooter
+cuckoo   11330  0.0  0.0  22848  5424 pts/2    Ss+  Aug01   0:00 bash
+cynet    11354  0.9  1.0 1176459280 171364 tty3 Sl+ 12:05   0:12 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --inspect-port=0 --crashpad-handler-pid=11276 --enable-crash-reporter=af1c6948-de2c-4a66-a8fa-11c368013ec7,no_channel --user-data-dir=/home/cynet/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,14263021317052809694,10959392374682468401,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+cynet    11370  0.4  0.5 1176471780 89460 tty3 Sl+  12:05   0:06 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --crashpad-handler-pid=11276 --enable-crash-reporter=af1c6948-de2c-4a66-a8fa-11c368013ec7,no_channel --user-data-dir=/home/cynet/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,14263021317052809694,10959392374682468401,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+root     11374  0.0  0.0 408232  8988 ?        Sl   Aug01   0:00 gdm-session-worker [pam/gdm-password]
+cynet    11380  0.0  0.0 281252  7688 ?        Sl   Aug01   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+cynet    11384  0.0  0.0 205028  6028 tty3     Ssl+ Aug01   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+cynet    11386  0.0  0.8 883888 141364 tty3    Sl+  Aug01   3:26 /usr/lib/xorg/Xorg vt3 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+cynet    11394  0.0  0.0  51816  6216 ?        Ss   Aug01   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+cynet    11397  0.0  0.0 625696 13980 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+cynet    11404  0.5  0.5 1176452524 87436 tty3 Sl+  12:05   0:06 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --crashpad-handler-pid=11276 --enable-crash-reporter=af1c6948-de2c-4a66-a8fa-11c368013ec7,no_channel --user-data-dir=/home/cynet/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,14263021317052809694,10959392374682468401,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+cynet    11405  0.0  0.4 1176469472 80488 tty3 Sl+  12:05   0:00 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --crashpad-handler-pid=11276 --enable-crash-reporter=af1c6948-de2c-4a66-a8fa-11c368013ec7,no_channel --user-data-dir=/home/cynet/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,14263021317052809694,10959392374682468401,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+cynet    11426  0.1  0.4 1176378172 76920 tty3 Sl+  12:05   0:01 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=11354
+cynet    11470  0.0  0.0  22940  5536 pts/4    Ss   12:05   0:00 /bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+cynet    11490  0.0  0.0  11316   324 ?        Ss   Aug01   0:01 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+cynet    11496  0.0  0.0 349296  6220 ?        Ssl  Aug01   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+cynet    11501  0.0  0.0  49928  4228 ?        S    Aug01   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+cynet    11503  0.0  0.0 220784  7024 ?        Sl   Aug01   0:01 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+cynet    11511  0.5  0.3 924228 55996 tty3     Sl+  12:05   0:06 /home/cynet/.vscode/extensions/ms-vscode.cpptools-1.16.3-linux-x64/bin/cpptools
+cynet    11529  0.2  2.1 4269012 349240 tty3   Sl+  Aug01  17:42 /usr/bin/gnome-shell
+cynet    11539  0.0  0.0 284864  7144 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfsd
+cynet    11544  0.0  0.0 416116  5512 ?        Sl   Aug01   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+cynet    11555  0.0  0.0 1516084 13812 ?       S<l  Aug01   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+cynet    11567  0.0  0.0 354912  8328 tty3     Sl   Aug01   0:10 ibus-daemon --xim --panel disable
+cynet    11571  0.0  0.1 690976 21900 ?        Sl   Aug01   0:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+cynet    11575  0.0  0.0 273640  6544 tty3     Sl   Aug01   0:00 /usr/lib/ibus/ibus-dconf
+cynet    11577  0.0  0.1 336800 20692 tty3     Sl   Aug01   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+cynet    11579  0.0  0.0 271452  6024 ?        Sl   Aug01   0:00 /usr/lib/ibus/ibus-portal
+cynet    11590  0.0  0.1 1365072 26012 ?       Ssl  Aug01   0:00 /usr/lib/evolution/evolution-source-registry
+cynet    11600  0.0  0.2 783848 33860 ?        Sl   Aug01   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+cynet    11609  0.0  0.0 369988  7564 ?        Sl   Aug01   0:00 /usr/lib/gnome-online-accounts/goa-identity-service
+cynet    11619  0.0  0.0 188024  5328 ?        Sl   Aug01   0:00 /usr/lib/dconf/dconf-service
+cynet    11622  0.0  0.0 299340  8332 ?        Ssl  Aug01   0:01 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+cynet    11626  0.0  0.0 281524  5892 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+cynet    11630  0.0  0.0 266940  5800 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+cynet    11634  0.0  0.0 268732  5272 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+cynet    11638  0.0  0.0 371724  7708 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+cynet    11643  0.0  0.1 509980 22760 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-power
+cynet    11645  0.0  0.0 342232 10092 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+cynet    11646  0.0  0.0 416240  5896 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+cynet    11647  0.0  0.0 268628  4752 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+cynet    11652  0.0  0.0 445736  9376 tty3     Sl+  Aug01   0:04 /usr/lib/gnome-settings-daemon/gsd-sharing
+cynet    11653  0.0  0.0 370960  7912 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+cynet    11657  0.0  0.0 327872  8044 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+cynet    11666  0.0  0.1 487308 21700 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+cynet    11670  0.0  0.1 421136 21392 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+cynet    11674  0.0  0.0 271052  5900 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+cynet    11679  0.0  0.1 336408 19988 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+cynet    11683  0.0  0.1 651460 21968 tty3     Sl+  Aug01   1:55 /usr/lib/gnome-settings-daemon/gsd-color
+cynet    11687  0.0  0.0 462636 13704 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+cynet    11688  0.0  0.0 357432  7288 tty3     Sl+  Aug01   0:15 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+cynet    11689  0.0  0.1 490808 20808 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+cynet    11694  0.0  0.1 1009076 23464 tty3    Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+cynet    11696  0.0  0.0 271052  5896 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+cynet    11720  0.0  0.0 501664 12708 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+cynet    11740  0.0  0.6 1155456 105152 tty3   Sl+  Aug01   0:04 nautilus-desktop
+cynet    11748  0.0  0.0 271936  6460 tty3     Sl+  Aug01   0:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+cynet    11750  0.0  1.5 1485568 247948 tty3   SLl+ Aug01   1:00 /usr/bin/gnome-software --gapplication-service
+cynet    11756  0.0  0.4 885340 67856 ?        Ssl  Aug01   0:00 /usr/lib/evolution/evolution-calendar-factory
+cynet    11768  0.0  0.0 361268  7540 ?        Sl   Aug01   0:05 /usr/lib/gvfs/gvfsd-trash --spawner :1.13 /org/gtk/gvfs/exec_spaw/0
+cynet    11797  0.0  0.3 1129176 62692 ?       Sl   Aug01   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx11756x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/11756/2
+cynet    11799  0.0  0.0 197784  6456 tty3     Sl   Aug01   0:02 /usr/lib/ibus/ibus-engine-simple
+cynet    11817  0.0  0.1 725624 24160 ?        Ssl  Aug01   0:00 /usr/lib/evolution/evolution-addressbook-factory
+cynet    11828  0.0  0.1 1010128 26832 ?       Sl   Aug01   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx11817x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/11817/2
+cynet    11852  0.0  0.0 197396  5880 ?        Ssl  Aug01   0:00 /usr/lib/gvfs/gvfsd-metadata
+root     12013  0.0  0.0  71996  4284 pts/4    S    12:06   0:00 sudo su
+root     12014  0.0  0.0  65140  3916 pts/4    S    12:06   0:00 su
+root     12015  0.0  0.0  21580  3980 pts/4    S    12:06   0:00 bash
+cynet    12196  0.0  0.1 637352 31652 tty3     Sl+  Aug01   0:06 update-notifier
+cynet    12267  0.0  0.0  18968  4016 tty3     S+   12:07   0:00 git push -u origin dev-linux-cr
+cynet    12269  0.0  0.0  52272  5868 tty3     S+   12:07   0:00 /usr/bin/ssh git@github.com git-receive-pack 'seanshx/DFIR.git'
+cynet    12396  0.0  0.2 870936 34684 tty3     Sl+  Aug01   0:00 /usr/lib/deja-dup/deja-dup-monitor
+cynet    12682  0.0  0.2 794888 37512 ?        Ssl  Aug01   0:10 /usr/lib/gnome-terminal/gnome-terminal-server
+cynet    12692  0.0  0.0  22848  5456 pts/3    Ss   Aug01   0:00 bash
+root     12768  0.0  0.0      0     0 ?        I    12:10   0:00 [kworker/u8:0]
+cynet    12816  0.4  0.7 4968432 120268 tty3   Sl+  12:10   0:04 /home/cynet/.vscode/extensions/ms-vscode.cpptools-1.16.3-linux-x64/bin/cpptools-srv 11511 {8864E64C-0758-4464-A429-4015549EFBDB}
+root     12952  0.0  0.0      0     0 ?        I    12:11   0:00 [kworker/0:1]
+root     12953  0.0  0.0      0     0 ?        I    12:11   0:00 [kworker/2:1]
+root     13067  0.0  0.0      0     0 ?        I    12:11   0:00 [kworker/1:1]
+cynet    13211  0.0  0.4 1176378172 73800 tty3 Sl+  12:12   0:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/extensions/markdown-language-features/server/dist/node/workerMain --node-ipc --clientProcessId=11354
+root     13656  0.0  0.0      0     0 ?        I    12:21   0:00 [kworker/u8:1]
+root     13858  0.0  0.0      0     0 ?        I    12:25   0:00 [kworker/1:2]
+root     14047  0.0  0.0 237412  2092 pts/4    Sl+  12:26   0:00 ./main_app
+root     14051  0.0  0.0   4636   776 pts/4    S+   12:26   0:00 sh -c netstat -a
+root     14052  0.0  0.0   4636   860 pts/4    S+   12:26   0:00 sh -c ps -aux
+root     14054  0.0  0.0  24956  2940 pts/4    S+   12:26   0:00 netstat -a
+root     14056  0.0  0.0  39672  3696 pts/4    R+   12:26   0:00 ps -aux
+root     15169  0.0  0.0  71992  4348 pts/3    S    Aug01   0:00 sudo su
+root     15170  0.0  0.0  65140  3800 pts/3    S    Aug01   0:00 su
+root     15171  0.0  0.0  76780  7824 ?        Ss   Aug01   0:00 /lib/systemd/systemd --user
+root     15172  0.0  0.0 259248  2720 ?        S    Aug01   0:00 (sd-pam)
+root     15183  0.0  0.0  21596  3960 pts/3    S+   Aug01   0:00 bash
+cynet    15741  0.0  0.3 920472 53564 ?        Sl   Aug01   0:04 /usr/bin/nautilus --gapplication-service
+root     16625  0.5  0.2 1578552 48812 ?       Ssl  Aug01  35:29 /usr/bin/containerd
+root     16936  0.0  0.4 1565940 70140 ?       Ssl  Aug01   0:43 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root     27381  0.0  0.0      0     0 ?        S<   Aug03   0:00 [loop28]

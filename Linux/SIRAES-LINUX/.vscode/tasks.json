@@ -5,7 +5,7 @@
             "label": "build and run",
             "type": "shell",
             "command": "g++",
-            "args": ["-g", "main.cpp", "-o", "output"],
+            "args": ["-g", "main.cpp", "-o", "main_exec", "-lpthread"],
             "group": {
                 "kind": "build",
                 "isDefault": true
