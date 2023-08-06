@@ -1,0 +1,23 @@
+#list processes:
+
+ps -auxww
+
+
+#Incident responders can use this to hunt across a file system #to find things the attacker may have changed. For example, if #you think an attack took place in the last week, you can run:
+
+find / -mtime -7
+
+#This will return every file with a modification date in the last 7 days.
+
+Attacker behaviour and profiling
+
+To finish off, we are going to look at some of the more common files you should check as you profile a suspect system:
+/etc/hosts: this shows any static IP assignments and can identify attackers trying to create routes in plain sight.
+/etc/passwd: Look for unexpected accounts, especially UID 0 accounts.
+/etc/shadow: Look for any unexpected modification which may indicate attackers have changed a legitimate password.
+/etc/sudoers: shows users with the ability to run commands with elevated privileges.
+c: check for changes to group memberships. GID27 is traditionally the SUDOERS group so special attention needs to paid here.
+(user path)/.ssh/authorized_keys: Check to see if anything has been added. Attackers add keys to maintain access.
+/etc/inittab: Attackers can add code here to have it execute when initd restarts.
+Directory names starting with .: This is a technique to try and hide entire directories where the attacker can store tools/data.
+Regular files in /dev: The /dev folder should hold devices. If you find any regular files in there its worth a closer look.
