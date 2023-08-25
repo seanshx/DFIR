@@ -1,100 +1,116 @@
 #include <windows.h>
 #include <iostream>
 #include <vector>
-#include <fstream>
-#include "nlohmann/json.hpp"
 
-using json = nlohmann::json;
-
+const int THREAD_COUNT = 6;
 const int MAX_CONCURRENT_THREADS = 3;
 
-class FunctionTask {
-public:
-    virtual void execute() = 0;
-};
+// Semaphore pointer
+HANDLE* hSemaphore = nullptr;
 
-class Function1 : public FunctionTask {
-    void execute() override {
-        std::cout << "Function 1 running." << std::endl;
-        Sleep(1000);
-    }
-};
+// Array of event handles to determine thread completion
+HANDLE hEvents[THREAD_COUNT];
 
-class Function2 : public FunctionTask {
-    void execute() override {
-        std::cout << "Function 2 running." << std::endl;
-        Sleep(1000);
-    }
-};
+// Six separate functions
+void Function1() {
+    std::cout << "Function 1 running." << std::endl;
+    Sleep(1000);
+}
 
-// ... Similarly for Function3 to Function6 ...
+void Function2() {
+    std::cout << "Function 2 running." << std::endl;
+    Sleep(1000);
+}
 
-class ThreadPool {
-private:
-    HANDLE hSemaphore;
-    std::vector<HANDLE> hEvents;
-    std::vector<FunctionTask*> enabledTasks;
+void Function3() {
+    std::cout << "Function 3 running." << std::endl;
+    Sleep(1000);
+}
 
-    static DWORD WINAPI ThreadFunction(LPVOID lpParam) {
-        FunctionTask* task = (FunctionTask*)lpParam;
-        WaitForSingleObject(task->hSemaphore, INFINITE);
-        task->execute();
-        ReleaseSemaphore(task->hSemaphore, 1, NULL);
-        SetEvent(task->hEvent);
-        return 0;
-    }
+void Function4() {
+    std::cout << "Function 4 running." << std::endl;
+    Sleep(1000);
+}
 
-public:
-    ThreadPool() {
-        hSemaphore = CreateSemaphore(NULL, MAX_CONCURRENT_THREADS, MAX_CONCURRENT_THREADS, NULL);
-    }
+void Function5() {
+    std::cout << "Function 5 running." << std::endl;
+    Sleep(1000);
+}
 
-    ~ThreadPool() {
-        CloseHandle(hSemaphore);
-        for (HANDLE event : hEvents) {
-            CloseHandle(event);
-        }
-    }
+void Function6() {
+    std::cout << "Function 6 running." << std::endl;
+    Sleep(1000);
+}
 
-    void addTask(FunctionTask* task) {
-        enabledTasks.push_back(task);
-        hEvents.push_back(CreateEvent(NULL, TRUE, FALSE, NULL));
-    }
+// The general thread function
+DWORD WINAPI ThreadFunction(LPVOID lpParam) {
+    // Wait on the semaphore
+    WaitForSingleObject(*hSemaphore, INFINITE);
 
-    void start() {
-        for (size_t i = 0; i < enabledTasks.size(); i++) {
-            QueueUserWorkItem(ThreadFunction, enabledTasks[i], 0);
-        }
+    // Call the appropriate function
+    void (*func)() = (void(*)())lpParam;
+    func();
 
-        WaitForMultipleObjects((DWORD)hEvents.size(), &hEvents[0], TRUE, INFINITE);
-    }
-};
+    // Release the semaphore
+    ReleaseSemaphore(*hSemaphore, 1, NULL);
 
-json ReadConfigFile(const std::string& filepath) {
-    std::ifstream configFile(filepath);
-    if (!configFile.is_open()) {
-        std::cerr << "Failed to open the configuration file." << std::endl;
-        exit(1);
-    }
+    // Signal that this thread is done
+    int index = func == Function1 ? 0 : func == Function2 ? 1 : func == Function3 ? 2 : func == Function4 ? 3 : func == Function5 ? 4 : 5;
+    SetEvent(hEvents[index]);
 
-    json config;
-    configFile >> config;
-    return config;
+    return 0;
 }
 
 int main() {
-    json config = ReadConfigFile("config.json");
-    std::cout << "Configuration settings:\n" << config.dump(4) << std::endl;
+    hSemaphore = new HANDLE;
+    *hSemaphore = CreateSemaphore(NULL, MAX_CONCURRENT_THREADS, MAX_CONCURRENT_THREADS, NULL);
+    if (*hSemaphore == NULL) {
+        std::cerr << "Failed to create semaphore. Error code: " << GetLastError() << std::endl;
+        delete hSemaphore;
+        return 1;
+    }
 
-    ThreadPool pool;
+    // Initialize events
+    for (int i = 0; i < THREAD_COUNT; i++) {
+        hEvents[i] = CreateEvent(NULL, TRUE, FALSE, NULL);
+        if (hEvents[i] == NULL) {
+            std::cerr << "Failed to create event. Error code: " << GetLastError() << std::endl;
+            CloseHandle(*hSemaphore);
+            delete hSemaphore;
+            for (int j = 0; j < i; j++) {
+                CloseHandle(hEvents[j]);
+            }
+            return 1;
+        }
+    }
 
-    if (config["Function1"]["isEnabled"]) pool.addTask(new Function1());
-    if (config["Function2"]["isEnabled"]) pool.addTask(new Function2());
-    // ... Similarly for Function3 to Function6 ...
+    // A vector of function pointers
+    std::vector<void(*)()> functions = {Function1, Function2, Function3, Function4, Function5, Function6};
 
-    pool.start();
+    // Queue threads
+    for (int i = 0; i < THREAD_COUNT; i++) {
+        if (!QueueUserWorkItem(ThreadFunction, functions[i], 0)) {
+            std::cerr << "Failed to queue thread. Error code: " << GetLastError() << std::endl;
+            CloseHandle(*hSemaphore);
+            delete hSemaphore;
+            for (int j = 0; j < THREAD_COUNT; j++) {
+                CloseHandle(hEvents[j]);
+            }
+            return 1;
+        }
+    }
 
-    std::cout << "All enabled tasks completed." << std::endl;
+    // Wait for all threads to complete
+    WaitForMultipleObjects(THREAD_COUNT, hEvents, TRUE, INFINITE);
+
+    // Cleanup
+    CloseHandle(*hSemaphore);
+    delete hSemaphore;
+    for (int i = 0; i < THREAD_COUNT; i++) {
+        CloseHandle(hEvents[i]);
+    }
+
+    std::cout << "All threads completed." << std::endl;
 
     return 0;
 }
